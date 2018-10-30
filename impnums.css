@@ -1,0 +1,45 @@
+body{
+    background-image: url("background-image.jpg");
+    background-size: 100%;
+}
+.topnav{
+    background-color: rgb(51, 51, 51);
+    overflow: hidden;
+}
+.topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+#impnums{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 10px 10px 10px black;
+}
+#line{
+    font-size: 25px;
+    color: rgb(206, 206, 206);
+    text-align: center;
+    margin-bottom: 10px;
+}
+table{
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+    margin: 50px;
+    margin-top: 50px;
+    box-shadow: 5 px 5px rgb(37, 34, 34);
+    background: rgb(206, 206, 206,0.40);
+}
+th,td{
+    margin: 10px;
+}

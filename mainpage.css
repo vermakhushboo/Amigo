@@ -1,0 +1,52 @@
+body{
+    background-image: url("background-image.jpg");
+    background-size: 100%;
+}
+.topnav{
+    background-color: rgb(51, 51, 51);
+    overflow: hidden;
+}
+.topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+#amigo{
+    font-size: 90px;
+    text-align: center;
+    color: white;
+    margin-top: 180px;
+    text-shadow: 15px 15px 16px black;
+}
+#tagline{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(206, 206, 206);
+    margin-top: 16px;
+}
+#para{
+    text-align: center;
+    font-size: 17px;
+    color: black;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    padding: 8px;
+    background: rgba(245, 231, 231, 0.5);
+    border-radius: 12px;
+}
+
+img{
+    float: right;
+    height: 40px;
+    width: 40px;
+    align-content: flex-end;
+    margin-top:100px;
+}

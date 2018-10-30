@@ -1,0 +1,62 @@
+body{
+    background-image: url("background-image.jpg");
+    background-size: 100%;
+}
+.topnav{
+    background-color: rgb(51, 51, 51);
+    overflow: hidden;
+}
+.topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+#register{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 10px 10px 10px black;
+}
+#line{
+    font-size: 25px;
+    color: rgb(206, 206, 206);
+    text-align: center;
+    margin-bottom: 10px;
+}
+form {
+    border: 3px solid #f1f1f1;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    width: 800px;
+}
+.avatar{
+    height: 100px;
+    padding-top: 20px;
+}
+input[type=text], input[type=password], input[type=number], input[type=email] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    font-size: 20px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register-Amigo</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+        <div class="topnav">
+                <a href="report.html">REPORT</a>
+                <a href="impnumbers.html">IMPORTANT NUMBERS</a>
+                <a href="safecity.html">IS YOUR CITY SAFE?</a>
+                <a href="register.html">REGISTER</a>
+                <a href="index.html">HOME</a>
+            </div>
+    <div id="register">
+        R E G I S T E R
+    </div>
+    <div id="line">
+        Join hands with us!
+    </div>
+
+    <center>
+    <form action="/register">
+        <div class="imgcontainer">
+            <center><img src="avatar.png" alt="Avatar" class="avatar"></center>
+        </div>
+        <div class="container">
+            <label for="uname"><b>Username:</b></label> &emsp;&ensp;
+            <input class="input" type="text" placeholder="Enter Username" name="uname" required>
+            <br>
+            <label for="cntno"><b>Contact No.:</b></label>&emsp;
+            <input type="number" class="input" placeholder="Enter Contact No." name="cntno" required>
+            <br>
+            <label for="email"><b>Email Address:</b></label>
+            <input type="email" class="input" placeholder="Enter Email Address" name="email" required>
+            <br>
+            <label for="Contact1"><b>Contact 1:</b></label>&emsp;&emsp;
+            <input type="number" class="input" placeholder="Enter Contact 1" name="Contact1" required>
+            <br>
+            <label for="Contact2"><b>Contact 2:</b></label>&emsp;&emsp;
+            <input type="number" class="input" placeholder="Enter Contact 2" name="Contact2" required>
+            <br>
+            <label for="Contact3"><b>Contact 3:</b></label>&emsp;&emsp;
+            <input type="number" class="input" placeholder="Enter Contact 3" name="Contact3" required>
+            <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <button onclick="location.href='submitpage.html'" type="button">Register</button>
+        </div>
+    </form>
+</center>
+</body>
+</html>

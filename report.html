@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Report-Amigo</title>
+    <link rel="stylesheet" href="report.css">
+</head>
+<body>
+        <div class="topnav">
+                <a href="report.html">REPORT</a>
+                <a href="impnumbers.html">IMPORTANT NUMBERS</a>
+                <a href="safecity.html">IS YOUR CITY SAFE?</a>
+                <a href="register.html">REGISTER</a>
+                <a href="index.html">HOME</a>
+            </div>
+    <div id="report">
+        R E P O R T
+    </div>
+    <div id="line">
+        Raise your voice!
+    </div>
+    <center>
+            <form action="/report">
+                <div class="imgcontainer">
+                    <center><img src="notepad.png" alt="Avatar" class="avatar"></center>
+                </div>
+                <div class="container">
+                    <label for="option"><b>Issue:</b></label>&emsp;&emsp;&emsp;&emsp;
+                    <select>
+                        <option>Dowry</option>
+                        <option>Domestic Violence</option>
+                        <option>Female Foeticide</option>
+                        <option>Robbery and Snatching</option>
+                        <option>Harassment at Workplace</option>
+                        <option>Eve-teasing</option>
+                        <option>Child Abuse</option>
+                        <option selected>Other</option>
+                    </select>
+                    <br>
+                    
+                    <label><b>Description:</b></label> &emsp;
+                    <input type="text" id="des" vertical-align="top" placeholder="Tell us about your problems and we'll convey them to the authorities" required>
+                    <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <button onclick="location.href='submitpage.html'" type="button">Submit</button>
+                </div>
+            </form>
+        </center>
+</body>
+</html>
